@@ -1,0 +1,55 @@
+/* Type your code here */
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 50px;
+	text-shadow: 2px 2px gray;
+	 
+	
+}
+p{
+	font-size: 25px;
+	text-shadow: 1px 1px gray;
+}
+table{
+	margin-top: 25px;
+	width: 70%;
+}
+table th{
+	background-color: rgb(232, 91, 39);
+	padding: 10px 20px;
+}
+table tr:nth-child(){
+	background: linear-gradient(to left, rgb(255, 255, 255), rgb(211, 211, 211))
+	
+}
+table td{
+	padding: 10px 15px;
+}
+.container{
+	margin-right: 10%;
+	padding: 25px;
+	padding-left: 50px;
+	background: url("assets/background-image1.png") no-repeat right bottom;
+}
+.logo{
+	text-align: right;
+}
+
+/* change the font family and spacing as per your project font */
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
